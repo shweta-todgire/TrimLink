@@ -2,6 +2,7 @@
 
 A full-stack MERN URL shortener with QR code generation, click analytics, and a sleek dark UI.
 
+Live on: https://trimlink-crkt.onrender.com
 ---
 
 ## 🚀 Features
