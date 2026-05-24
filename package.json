@@ -1,12 +1,8 @@
 {
-  "name": "trim-link-url-shortener",
+  "name": "trimlink",
   "version": "1.0.0",
   "scripts": {
-    "install:all": "cd backend && npm install && cd ../frontend && npm install",
-    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
-    "start": "cd backend && npm start"
-  },
-  "devDependencies": {
-    "concurrently": "^8.2.2"
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd backend && npm install && node server.js"
   }
 }
